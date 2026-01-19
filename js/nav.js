@@ -15,7 +15,9 @@ export const renderNavColumns = (container, categories) => {
     items.forEach((item) => {
       const listItem = document.createElement("li");
       const link = document.createElement("a");
-      link.href = `products.html?category=${encodeURIComponent(group)}`;
+      link.href = `products.html?category=${encodeURIComponent(
+        group
+      )}&subcategory=${encodeURIComponent(item)}`;
       link.textContent = item;
       link.className = "nav-link";
       link.dataset.subcategory = item;

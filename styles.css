@@ -85,6 +85,7 @@ body {
   padding: 1.5rem;
   min-width: min(900px, 90vw);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  z-index: 10;
   opacity: 0;
   pointer-events: none;
   transform: translateY(-8px);

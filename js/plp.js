@@ -16,6 +16,7 @@ const productGrid = document.getElementById("plp-grid");
 const resultCount = document.getElementById("result-count");
 const urlParams = new URLSearchParams(window.location.search);
 const initialCategory = urlParams.get("category");
+const initialSearch = urlParams.get("subcategory") ?? "";
 
 if (navColumns) {
   renderNavColumns(navColumns, categories);
@@ -39,6 +40,10 @@ if (categorySelect) {
   if (initialCategory) {
     categorySelect.value = initialCategory;
   }
+}
+
+if (searchInput && initialSearch) {
+  searchInput.value = initialSearch;
 }
 
 if (tagSelect) {
@@ -94,7 +99,7 @@ const applyFilters = () => {
       : true;
     const matchesTag = tagValue ? product.tag === tagValue : true;
     const matchesSearch = searchTerm
-      ? `${product.name} ${product.description}`
+      ? `${product.name} ${product.description} ${product.subcategory}`
           .toLowerCase()
           .includes(searchTerm)
       : true;
