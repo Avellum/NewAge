@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product | NewAge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-bar">
+        <span>Free shipping on subscriptions over $50</span>
+        <span class="divider">•</span>
+        <span>Clean ingredients, clinically informed</span>
+      </div>
+      <div class="nav-shell">
+        <a class="logo" href="index.html">NewAge</a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false">
+            Categories
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="nav-panel" data-nav-panel>
+            <div class="nav-panel-header">
+              <h2>Shop by category</h2>
+              <p>Science-led supplements and K-beauty essentials.</p>
+            </div>
+            <div class="nav-columns" id="nav-columns"></div>
+          </div>
+        </nav>
+        <div class="nav-actions">
+          <a class="ghost-button" href="products.html">Shop</a>
+          <label class="search" aria-label="Search">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="search" placeholder="Search products" />
+          </label>
+          <button class="ghost-button" type="button">Sign in</button>
+          <button class="cart-button" type="button">
+            <span aria-hidden="true">🛒</span>
+            Cart (0)
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="pdp-layout" id="pdp-root">
+        <div class="pdp-gallery">
+          <img class="pdp-hero" id="pdp-hero" alt="" />
+          <div class="pdp-thumbs" id="pdp-thumbs"></div>
+        </div>
+        <div class="pdp-details">
+          <p class="eyebrow" id="pdp-category"></p>
+          <h1 id="pdp-name"></h1>
+          <p class="pdp-rating" id="pdp-rating"></p>
+          <div class="pdp-pricing" id="pdp-pricing"></div>
+          <p class="pdp-description" id="pdp-description"></p>
+          <div class="pdp-stock" id="pdp-stock"></div>
+          <div class="pdp-actions">
+            <button class="primary-button" id="pdp-cta" type="button">Add to cart</button>
+            <button class="secondary-button" type="button">Add to routine</button>
+          </div>
+          <div class="pdp-panels">
+            <div>
+              <h2>Ingredients</h2>
+              <ul id="pdp-ingredients"></ul>
+            </div>
+            <div>
+              <h2>How to use</h2>
+              <p id="pdp-usage"></p>
+            </div>
+          </div>
+          <div class="pdp-reviews">
+            <h2>Reviews</h2>
+            <p>Reviews are coming soon. Share your experience in-store.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/pdp.js"></script>
+  </body>
+</html>
