@@ -1,0 +1,98 @@
+export const products = [
+  {
+    id: "glow-marine-collagen",
+    name: "Glow Marine Collagen",
+    category: "Skin, Hair & Nails",
+    subcategory: "Collagen",
+    price: 48,
+    description: "Hydrolyzed marine collagen with vitamin C for elasticity.",
+    tag: "Best Seller",
+    stock: 24,
+    image:
+      "https://images.unsplash.com/photo-1556228724-4f5863915d3b?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "hair-growth-complex",
+    name: "Hair Growth Complex",
+    category: "Skin, Hair & Nails",
+    subcategory: "Hair Growth",
+    price: 42,
+    description: "Biotin, saw palmetto, and adaptogens for stronger strands.",
+    tag: "New",
+    stock: 12,
+    image:
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "sleep-reset-magnesium",
+    name: "Sleep Reset Magnesium",
+    category: "Stress, Sleep & Nervous System",
+    subcategory: "Magnesium",
+    price: 36,
+    description: "Glycinate + L-theanine blend for restful nights.",
+    tag: "Top Rated",
+    stock: 5,
+    image:
+      "https://images.unsplash.com/photo-1522337094846-8a818192de1a?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "nad-recharge",
+    name: "NAD+ Recharge",
+    category: "Longevity & Cellular Energy",
+    subcategory: "NAD+ & Precursors",
+    price: 64,
+    description: "Nicotinamide riboside with resveratrol support.",
+    tag: "Longevity",
+    stock: 18,
+    image:
+      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "gut-skin-synbiotic",
+    name: "Gut-Skin Synbiotic",
+    category: "Gut Health & Microbiome",
+    subcategory: "Synbiotics",
+    price: 44,
+    description: "Dual-action pre + probiotic for gut barrier support.",
+    tag: "Clean Label",
+    stock: 9,
+    image:
+      "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "focus-nootropic",
+    name: "Focus Nootropic Drops",
+    category: "Cognitive Performance & Focus",
+    subcategory: "Nootropics",
+    price: 38,
+    description: "Lion’s mane + L-tyrosine for sustained clarity.",
+    tag: "Staff Pick",
+    stock: 0,
+    image:
+      "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "kbeauty-barrier-cream",
+    name: "K-Beauty Barrier Cream",
+    category: "Korean Beauty",
+    subcategory: "Barrier Repair",
+    price: 32,
+    description: "Ceramide-rich moisturizer for sensitive skin.",
+    tag: "K-Beauty",
+    stock: 7,
+    image:
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80",
+  },
+  {
+    id: "metabolic-mineral-blend",
+    name: "Metabolic Mineral Blend",
+    category: "Metabolic Health & Energy",
+    subcategory: "Electrolytes & Minerals",
+    price: 28,
+    description: "Electrolytes with chromium for steady energy.",
+    tag: "Daily",
+    stock: 14,
+    image:
+      "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80",
+  },
+];
